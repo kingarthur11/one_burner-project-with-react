@@ -1,0 +1,26 @@
+.style-body > h3{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 12px;
+    color: #333333;
+    width: 568px;
+    height: 48px;
+}
+.style-heading > p {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(69, 69, 69, 0.8);
+}
+.style-body-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

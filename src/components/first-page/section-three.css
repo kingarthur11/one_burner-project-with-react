@@ -1,0 +1,51 @@
+.frame > h2 {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.frame {
+    background: #7837F8;
+    margin: 30px;
+    height: 200px;
+    padding: 150px 100px;
+    
+}
+.frame > p {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.frame > button {
+    background: #462686;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

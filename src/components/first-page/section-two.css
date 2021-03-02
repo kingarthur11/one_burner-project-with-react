@@ -1,0 +1,73 @@
+
+.frame1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.frame1 > img {
+    width: 60%;
+}
+.frame-text {
+    padding: 60px;
+    margin: 20px;
+}
+.frame-text > h3{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+    width: 80%;
+}
+.frame-text > p {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(69, 69, 69, 0.8);
+}
+.frame2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.frame2 > img {
+    width: 60%;
+    padding: 60px;
+    margin: 20px;
+}
+
+.frame-list > img {
+    width: 40%;
+    padding: 60px;
+    margin: 20px;
+}
+.frame-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.frame-list-right {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    margin-left: 20px;
+    
+}
+.frame-list-right > p{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(69, 69, 69, 0.8);
+}

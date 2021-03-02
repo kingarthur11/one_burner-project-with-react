@@ -1,0 +1,138 @@
+.style-body-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.style-body-1-left {
+    padding: 60px;
+    margin: 20px;
+    font-family: Sofia Pro;
+    font-style: normal;
+}
+.style-body-1-left > h2 {
+    width: 80%;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #462686;
+}
+.style-body-1-left > p {
+    width: 60%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 0.8);
+}
+.style-body-1-left > button {
+    background: #462686;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    width: 40%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.style-body-p {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #01001D;
+    display: flex;
+    justify-content: center;
+}
+.style-body-image {
+    padding: 30px; 
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.style-body-image > img {
+    padding: 5px;
+}
+.style-body-list {
+    padding: 30px; 
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background: #FFFFFF;
+    border: 2px solid #454545;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.style-body-list > button {
+    background: #462686;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    height: 100%;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.frame1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.frame1 > img {
+    width: 60%;
+}
+.frame-text {
+    padding: 60px;
+    margin: 20px;
+}
+.frame-text > h3{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+    width: 80%;
+}
+.frame-text > p {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(69, 69, 69, 0.8);
+}
+.frame2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.frame2 > img {
+    width: 60%;
+    padding: 60px;
+    margin: 20px;
+}
