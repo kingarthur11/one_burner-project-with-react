@@ -10,6 +10,9 @@ import standardbank from '../../asset/part1/standardbank.png'
 import frame from '../../asset/part2/Frame.png'
 import frame1 from '../../asset/part2/Rectangle22.png'
 import frame2 from '../../asset/part2/Rectangle25.png'
+import frame3 from '../../asset/part5/etty.png'
+import frame4 from '../../asset/part5/kenya.png'
+import frame5 from '../../asset/part5/ussama.png'
 
 const SectionOne = () => {
     return (
@@ -20,27 +23,36 @@ const SectionOne = () => {
                     <p>Communicate effectively with Oneburner for easy collaboration, team work and remote work.</p>
                     <button>Start Free Trial</button>
                 </div>
-                <div className="style-body-1-right">
-                    <div>
-                        <img />
-                        <div>
-                            <h2>Mitchelle</h2>
-                            <p>Admin Officer</p>
+                <div className="style-part">
+                    <div className="style-right1">
+                        <div className="style-right-1">
+                            <img src={frame5}/>
+                            <div className="style-right-text">
+                                <h2>Mitchelle</h2>
+                                <p>Admin Officer</p>
+                            </div>
+                        </div>
+                        <p className="style-right-p">Time to implement the new changes</p>
+                    </div>
+                    <div className="style-right2">
+                        <p className="style-right-p2">Yes! We are getting it done</p>
+                        <div className="style-right-2">
+                            <img src={frame3}/>
+                            <div className="style-right-text">
+                                <h2>Adeola</h2>
+                                <p>Manager</p>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <img />
-                        <div>
-                            <h2>Adeola</h2>
-                            <p>Manager</p>
+                    <div className="style-right3">
+                        <div className="style-right-3">
+                            <img src={frame4}/>
+                            <div className="style-right-text">
+                                <h2>Wanyama</h2>
+                                <p>Admin Officer</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <img />
-                        <div>
-                            <h2>Wanyama</h2>
-                            <p>Admin Officer</p>
-                        </div>
+                        <p className="style-right-p3">Deploying on production at 2AM</p>
                     </div>
                 </div>
             </div>
