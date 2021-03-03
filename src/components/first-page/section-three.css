@@ -11,7 +11,8 @@
     background: #7837F8;
     margin: 30px;
     height: 200px;
-    padding: 150px 100px;
+    padding: 150px 0px;
+    width: 100%;
     
 }
 .frame > p {
@@ -43,9 +44,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 550px;
+    top: 20px;
 }
-.frame-button {
+/* .frame-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */

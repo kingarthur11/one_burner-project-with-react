@@ -1,13 +1,16 @@
 import React from 'react'
 import './navbar.css'
+import Logo from '../../asset/part6/Logo.png'
 
 const navbar = () => {
     return (
-        <div>
-            <span>logo</span>
-            <div>
+        <div >
+            <div className="style-navbar">
+                <span>
+                    <img src={Logo} />
+                </span>
                 <div>
-                    <ul>
+                    <ul className="style-navbar-list1">
                         <li>Product</li>
                         <li>Pricing</li>
                         <li>Enterprice</li>
@@ -15,7 +18,7 @@ const navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <ul>
+                    <ul className="style-navbar-list1">
                         <li>Contact Sales</li>
                         <li>Login</li>
                         <button>Try for free</button>

@@ -1,0 +1,34 @@
+.style-text1 > h3 {
+    text-align: center;
+    margin: 150px 500px 25px 500px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+.style-text1 > button {
+    background: #462686;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    width: 12%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    position: relative;
+    left: 600px;
+}
+.style-text1 {
+    background: rgba(204, 204, 204, 0.1);
+    height: 400px;
+    padding-top: 30px;
+}

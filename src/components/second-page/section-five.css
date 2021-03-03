@@ -1,0 +1,39 @@
+/*  */
+/* .style-page > img {
+    position: relative;
+    width: 300px;
+    left: 500px;
+} */
+.style-page {
+    text-align: center;
+    margin: 150px 250px 25px 250px;
+}
+.style-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.style-section > img {
+    width: 5%;
+    padding: 13px;
+}
+.style-text > h3 {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 3px;
+    color: #333333;
+}
+.style-text > p {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+}
+.style-page1 {
+    height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,22 @@
+.style-map {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: rgba(204, 204, 204, 0.1);
+}
+.style-map > img {
+    position: relative;
+    width: 300px;
+    left: 500px;
+}
+.style-map > h3{
+    text-align: center;
+    margin: 100px 250px 25px 250px;
+}
+.style-map > p {
+    text-align: center;
+    /* width: 50%; */
+    justify-content: center;
+    margin: 15px 250px 70px 250px;
+}

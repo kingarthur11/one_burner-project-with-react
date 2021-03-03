@@ -1,8 +1,10 @@
 import React from 'react'
+import './section-two.css'
+
 
 const SectionTwo = () => {
     return (
-        <div>
+        <div className="style-body-text">
             <h2>How Oneburner help enterprises grow</h2>
             <div>
                 <p>Oneburner software solution helps your business by 
